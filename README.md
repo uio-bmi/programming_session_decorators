@@ -22,4 +22,10 @@ Logs the method name and input to file.
 **@takes(type1, type2, ...)**
 Asserts that all arguments are of the given types
 
+**memoize**
+Memoizes the output of the function. Using the arguments as unique key.
+
+**@count_calls**
+Counts have many time each method is being called. Prints or logs the number of times.
+
 ....
